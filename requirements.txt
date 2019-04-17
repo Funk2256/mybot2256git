@@ -7,7 +7,6 @@ async-timeout==3.0.1
 attrs==18.2.0
 Babel==2.6.0
 Beaker==1.10.1
-Brlapi==0.7.0
 btrfsutil==1.1.0
 CacheControl==0.12.5
 certifi==2018.10.15
