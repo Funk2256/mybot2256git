@@ -21,7 +21,6 @@ evdev==1.1.2
 future==0.17.0
 html5lib==1.0.1
 idna==2.8
-lensfun==0.3.2
 lockfile==0.12.2
 louis==3.9.0
 lutris==0.5.2
