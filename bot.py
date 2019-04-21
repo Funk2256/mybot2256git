@@ -2,9 +2,9 @@
 import config
 import proxy
 import telebot
+import run_server
 from telebot import types
-import os
-from flask import Flask
+
 
 bot = telebot.TeleBot(config.token)
 
@@ -20,14 +20,3 @@ def repeat_all_messages(message): # Название функции не игр�
 
 if __name__ == '__main__':
     bot.polling(none_stop=True)
-
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-    return "Hello from Python!"
-
-if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host='0.0.0.0', port=port)
-
