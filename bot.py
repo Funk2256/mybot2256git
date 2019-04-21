@@ -2,9 +2,8 @@
 import config
 import proxy
 import telebot
-import run_server
 from telebot import types
-
+import run_server
 
 bot = telebot.TeleBot(config.token)
 
