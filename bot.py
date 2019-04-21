@@ -5,7 +5,7 @@ from telebot import types
 from telebot import apihelper
 import os
 
-os.environ[‘PORT’]
+os.environ[‘PORT’ 5000]
 apihelper.proxy = {'https':'socks5://userid10Oh:mlLbfK@185.36.191.39:7992'}
 
 bot = telebot.TeleBot(config.token)
