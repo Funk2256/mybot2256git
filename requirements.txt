@@ -38,7 +38,6 @@ pulsemixer==1.4.0
 pycairo==1.18.0
 pycparser==2.19
 Pygments==2.3.1
-PyGObject==3.32.0
 pyparsing==2.3.1
 PySocks==1.6.8
 pyTelegramBotAPI==3.6.6
