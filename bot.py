@@ -1,12 +1,10 @@
 # -*- coding: utf-8 -*-
 import config
+import proxy
 import telebot
 from telebot import types
-from telebot import apihelper
 import os
-#from flask import Flask
-
-apihelper.proxy = {'https':'socks5://userid10Oh:mlLbfK@185.36.191.39:7992'}
+from flask import Flask
 
 bot = telebot.TeleBot(config.token)
 
@@ -33,11 +31,3 @@ if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(host='0.0.0.0', port=port)
 
-"""markup = types.ReplyKeyboardMarkup()
-markup.row('a', 'v')
-markup.row('c', 'd', 'e')
-
-@bot.message_handler(content_types=["text"])
-def repeat_all_messages(message): # Название функции не играет никакой роли, в принципе
-	bot.send_message(message.chat.id, "Choose one letter:", reply_markup=markup)
-"""
