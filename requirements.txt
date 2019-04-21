@@ -35,7 +35,6 @@ pip-tools==3.6.0
 progress==1.5
 psycopg2==2.8.1
 pulsemixer==1.4.0
-pwquality==1.4.0
 pycairo==1.18.0
 pycparser==2.19
 Pygments==2.3.1
