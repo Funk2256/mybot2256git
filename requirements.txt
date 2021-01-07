@@ -22,7 +22,7 @@ future==0.17.0
 html5lib==1.0.1
 idna==2.8
 lockfile==0.12.2
-lxml==4.3.3
+lxml==4.6.2
 Mako==1.0.8
 Markdown==3.0.1
 MarkupSafe==1.1.1
